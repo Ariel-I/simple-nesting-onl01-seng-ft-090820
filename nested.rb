@@ -15,7 +15,9 @@ def hopper
           :languages => ["C"]
         }
      }
-programmer_hash.each 
+programmer_hash.each do |a,b|
+  puts "#{a}"
+end
 
 end
 
