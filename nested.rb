@@ -61,7 +61,7 @@ def dennis_ritchies_language
      }
      
      programmer_hash[:dennis_ritchie][:languages] do |a,b|
-       puts [b].join
+       puts [b].join()
      end 
 end
 
