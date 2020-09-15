@@ -39,7 +39,8 @@ def alan_kay_is_known_for
         }
      }
      
-     alan_kay_is_known_for[:alan_kay][:known_for] 
+     alan_kay_is_known_for[:alan_kay][:known_for] do |a,b|
+       puts "#{a}"
 end
 
 def dennis_ritchies_language
